@@ -11,11 +11,6 @@ import java.util.stream.Stream;
 
 public class Packer {
 
-    public static void main(String[] args) throws APIException {
-        System.out.println(pack("C:\\Users\\sujoy.bhattacharya\\Desktop\\test.txt"));
-    }
-
-
     /**
      * Splits/extracts the contents of the text file into 3 arrays - weights[]. indices[], costs[] and determines the max cost
      * @param filePath
